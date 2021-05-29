@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f3;
+    height: 100vh;
+    overflow: hidden;
+}
+.gen-btn {
+    border-radius: 50px;
+    background-color: #f0f0f3;
+    box-shadow: 10px 10px 21px #d3d3d6,
+                -10px -10px 21px #fff;
+    width: 200px;
+    height: 200px;
+}
+h1{
+    text-align: center;
+    color: #a69494;
+    height: 30px;
+}
+input {
+    outline: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #f0f0f3;
+    box-shadow: 10px 10px 21px #d3d3d6,
+                -10px -10px 21px #fff;
+}
+.min, .max {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.min span, .max span {
+    margin-bottom: 5px;
+}
+.min::placeholder, .max::placeholder {
+    text-align: center;
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+
+
+  
+
+  
