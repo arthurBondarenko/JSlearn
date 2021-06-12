@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #fff;
+    height: 100vh;
+    font: 400 16px "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: background 0.3s linear;
+}
+
+body.dark {
+    background-color: black;
+    color: #fff;
+}
+/* body.dark.container {
+    color: #fff;
+} */
+input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+ }
+ 
+ label {
+    position: relative;
+    display: block;
+    background: grey;
+    width: 220px;
+    height: 100px;
+    text-indent: -9999px;
+    border-radius: 100px;
+    cursor: pointer;
+
+ }
+ 
+ label:after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    top: 5px;
+    left: 5px;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    transition: 200ms;
+    box-shadow: 0px 0px 30px 5px #000;
+ }
+ 
+ input:checked + label {
+    background: #630909;
+
+ }
+ 
+ input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+ }
+ 
+ label:active:after {
+    width: 100px;
+ }
+  .container {
+      text-align: center;
+
+  }
+
+  .toggle {
+      position: absolute;
+      top: 0;
+      right: 10px;
+  }
