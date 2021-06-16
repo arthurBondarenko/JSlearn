@@ -1,0 +1,57 @@
+body {
+  background-image: url("https://kartinkinaden.ru/uploads/posts/2021-03/1616031482_12-p-matovii-zelenii-fon-15.jpg");
+}
+.eight-ball {
+    position: relative;
+    border-radius: 50%;
+    width: 45vmin;
+    height: 45vmin;
+    overflow: hidden;
+    background: radial-gradient(circle at 30vmin 30vmin, #444, #000);
+  }
+
+  .answer {
+    position: absolute;
+    left: 11.25vmin;
+    top: 11.25vmin;
+    width: 22.5vmin;
+    height: 22.5vmin;
+    border-radius: 50%;
+    background: radial-gradient(#002, #001 18vmin, #666 18vmin, #000 18.5vmin, #000 22vmin, #666 22vmin, #000 22.5vmin);
+  }
+
+
+  h1 { font-weight: 100; font-size: 2.5em;}
+    
+  #content { 
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+  
+  p#eight {
+    font-size: 4em;
+    margin: 30% 40%;
+    color: white;
+  }
+  
+  p#answer {
+    margin: 25% 20%;
+    color: lightblue;
+    letter-spacing: 2px;
+    font-size:18px;
+    text-align: center;
+  }
+  
+  #question {
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    font-size:22px;
+  }
+  
+  #info {
+    font-size: 22px;
+  }
