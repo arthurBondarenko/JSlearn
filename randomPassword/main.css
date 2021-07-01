@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(121,9,9);
+    background: linear-gradient(90deg, rgba(121,9,9,1) 27%, rgba(25,27,112,1) 67%); 
+}
+.container {
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#input {
+    width: 80%;
+    text-align: center;
+    height: 50px;
+}
+.footer {
+    margin-top: 20px;
+    display: flex;
+
+
+}
+#Passlength {
+    width: 82px;
+    margin-right: 20px;
+    text-align: center;
+}
+.rainbow-button {
+    /* width:calc(20vw + 6px);
+    height:calc(8vw + 6px); */
+    width: 250px;
+    height: 80px;
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    font-size:2rem;
+    font-weight:bold;
+  }
+  .rainbow-button:after {
+    content:attr(alt);
+    /* width:20vw;
+    height:8vw; */
+    background-color:#191919;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .rainbow-button:hover {
+    animation:slidebg 2s linear infinite;
+  }
+  
+  @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
