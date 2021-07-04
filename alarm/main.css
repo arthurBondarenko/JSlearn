@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%);
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+}
+
+#alarmOption {
+    display: flex;
+}
+#alarmOption button:first-child {
+    margin-right: 10px;
+}
