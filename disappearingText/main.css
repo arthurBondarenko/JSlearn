@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; */
+    margin: 0;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    overflow: hidden;
+    background-color: #000;
+}
+.text {
+    text-align: center;
+    font-size: 25px;
+    user-select: none;
+    color: #fff;
+}
+.text span {
+    display: inline-block;
+    cursor: pointer;
+
+}
+.active {
+    animation: smoke 2s linear forwards;
+
+}
+@keyframes smoke {
+    100% {
+        opacity: 0;
+        filter: blur(20px);
+        transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+    }
+}
