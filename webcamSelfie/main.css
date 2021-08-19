@@ -1,0 +1,14 @@
+.video-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controller {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.controller button {
+    padding: 15px 40px;
+}
