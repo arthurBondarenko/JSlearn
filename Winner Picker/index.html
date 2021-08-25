@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Winner Picker</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1>Random Picker</h1>
+            <p class="lead">Enter random choices. Get your winner.</p>
+        </div>
+
+        <section>
+            <div class="choice-container">
+                <h2>Enter choices</h2>
+                <p>Enter each value on a new line. Blank lines will be ignored.</p>
+                <textarea id="textarea" class="form-control" rows="15"></textarea>
+            </div>
+            <div class="winner-container">
+                <h2>Your Winner:</h2>
+                <p id="instructions"><span class="label label-warning">You have to enter some values first!</span>
+                </p>
+                <div id="result"></div>
+                <div id="chooser" class="text-center">
+                    <button type="button" class="btn">Pick Winner</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
