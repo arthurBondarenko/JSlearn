@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 auto;
+}
+td,
+th {
+  border: 1px solid #000;
+  padding: 10px;
+}
+th:after {
+  padding-left: 5px;
+}
+th.darr:after {
+  content: "\2193";
+}
+th.uarr:after {
+  content: "\2191";
+}
+thead {
+  background: #eee;
+  cursor: pointer;
+}
