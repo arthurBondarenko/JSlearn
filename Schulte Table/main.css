@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+/* table{
+    background-color:#fbc;
+    border:4px outset #fbc;
+    border-collapse:collapse;
+}
+table td{
+    border:1px solid #c99;
+    width:40px;
+    height:40px;
+    color:#00f;
+    text-align:center;
+    font-size:1.5em;
+  }
+table td:hover{
+    background-color:#d0d;
+  }
+  
+.game{
+display:flex;
+justify-content:center;
+
+}
+p{
+margin-left:30px;
+color:white;
+font-weight:500;
+letter-spacing:1px;
+text-align:center;
+
+
+}
+.status{
+  color:#0f0;
+}
+.scores{
+  color:#ff0;
+} */
+
+#timer {
+    min-height: 50px;
+    text-align: center;
+}
+#game_table {
+    border: 1px solid #000;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+#start {
+    margin: 0 auto;
+    display: block;
+}
+#restart {
+    display: none;
+    margin: 20px auto;
+}
+.td {
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    font-weight: bold;
+    border: 1px solid #000;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.td.select {
+    background: #c00;
+}
