@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+#top {
+  width: 1200px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+header {
+  width: 1190px;
+  height: 100px;
+}
+.title {
+  font-size: 70px;
+  margin: auto;
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px cyan;
+  text-decoration: underline;
+}
+canvas {
+  width: 450px;
+  height: 450px;
+  border: 5px solid black;
+  margin: auto;
+}
+
+.originalImg {
+  font-size: 40px;
+  color: magenta;
+  text-decoration: underline;
+}
+
+.puzzBlock {
+  text-align: center;
+  width: 50%;
+  padding-top: 10px;
+}
+.contentWrapper {
+  margin-top: 10px;
+  height: 1000px;
+}
