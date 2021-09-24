@@ -1,3 +1,4 @@
+<h1 align="center">Hi 👋</h1>
 <h3 align="center">This is Vanilla Javascript projects</h3>
 
 <h3 align="left">Languages and Tools:</h3>
