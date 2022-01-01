@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rain-container {
+  position: relative;
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+i {
+  position: absolute;
+  height: 120px;
+  border-radius: 0 0 999px 999px;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(-120px);
+  }
+  100% {
+    transform: translateY(calc(100vh + 120px));
+  }
+}
