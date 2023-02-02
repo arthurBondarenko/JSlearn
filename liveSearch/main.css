@@ -1,0 +1,22 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+ */
+
+ .container-fluid {
+    background-color: #1d2630;
+ }
+
+ .container {
+    margin-top: 30px;
+ }
