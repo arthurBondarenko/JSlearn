@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #13161a;
+  color: white;
+}
+
+.app {
+  width: 650px;
+  background-color: #1b1f24;
+  border-radius: 10px;
+  position: relative;
+}
+.app .pointer {
+  height: 50px;
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  transform: translate3d(-50%, -25px, 0);
+  filter: drop-shadow(0 0 20px rgba(230, 174, 174, 0.3));
+}
+.app .scope {
+  overflow: hidden;
+}
+.app .scope .list {
+  position: relative;
+  display: inline-flex;
+  list-style: none;
+  transition: 5s cubic-bezier(0.21, 0.53, 0.29, 0.99);
+}
+.app .scope .list__item {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  opacity: 0.5;
+  transition: 0.3s ease;
+  height: 160px;
+}
+.app .scope .list__item:nth-child(2n) {
+  background: rgba(0, 0, 0, 0.1);
+}
+.app .scope .list__item.active {
+  opacity: 1;
+}
+.app .scope .list__item.active img {
+  transform: scale(1.05);
+}
+.app .scope .list__item img {
+  width: 80%;
+  height: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.app .start {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate3d(-50%, 20px, 0);
+  padding: 8px 25px;
+  background: #497ee0;
+  color: inherit;
+  font-style: 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: opacity 0.2s ease;
+  font-weight: 500;
+  cursor: pointer;
+}
+.app .start:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=main.css.map */
